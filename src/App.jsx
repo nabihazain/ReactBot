@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { API_URL } from './api';
+import { API_URL } from './api.js';
 
 function App() {
   const [question, setQuestion] = React.useState("");
